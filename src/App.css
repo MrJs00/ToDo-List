@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Pixelify+Sans&display=swap');
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(14, 10, 36) ;
+  color:rgb(0, 64, 255) 
+}
+
+.app {
+  text-align: center;
+  margin-bottom: 13rem;
+}
+
+.task-input {
+  margin-bottom: 20px;
+  grid-row: 1;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  border-radius: 15px;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 16px;
+  border: 1px solid rgb(48, 48, 196);
+}
+
+button {
+  padding: 7px;
+  cursor: pointer;
+  background-color: rgb(103, 103, 190);
+  color:thistle;
+  border-radius: 15px;
+  font-weight: bold;
+  border-color: rgb(86, 85, 102);
+  border: 1px solid;
+}
+
+button:hover{
+  background-color: rgb(6, 240, 220);
+  border-color: rgb(92, 42, 107);
+  color:rgb(250, 0, 0);
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px;
+  font-family: 'Pixelify Sans', sans-serif;
+  border-radius: 15px;
+}
+
+.task-list {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.del:hover{
+  background-color: rgb(216, 18, 84);  
+  color:aqua;
+}
